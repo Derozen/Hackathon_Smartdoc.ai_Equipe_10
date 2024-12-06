@@ -8,6 +8,7 @@ Ce hackathon se concentre sur le traitement automatique du langage naturel (NLP)
 
 1. Extraire et nettoyer le contenu pertinent des rapports PDF
 2. Construire une architecture RAG (Retrieval-Augmented Generation) pour répondre à des questions spécifiques
+3. [BONUS] Extraire les tableaux des rapports sous une forme structurée et lisible
 
 Pour plus de détails sur les objectifs, les tâches et les exigences techniques, veuillez consulter le fichier [Instructions.docx](Instructions.docx).
 
@@ -39,9 +40,12 @@ Votre dossier doit contenir:
 ## Ressources 📚
 
 - [helper.py](helper.py): Code auxiliaire pour le traitement des fichiers JSON
+- [Trame_questions.pdf](Trame_questions.pdf): Ensemble de questions tests pour évaluer la performance de votre système RAG
 - [data/](data/): Dossier contenant les données d'exemple
   - [data/pdfs/](data/pdfs/): Rapports SFCR au format PDF
   - [data/ocr/](data/ocr/): Fichiers JSON produits par l'OCR
+
+Le fichier Trame_questions.pdf contient une série de questions prédéfinies qui seront utilisées pour évaluer la performance de votre système RAG. Assurez-vous que votre solution peut traiter efficacement ces questions tests.
 
 ## Dates Importantes ⏰
 
